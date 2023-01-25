@@ -1,12 +1,43 @@
+/* GENERAL */
+
+body {
+    background-color: steelblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* LOOP GRID STYLE */
+
 #grid {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     list-style: none;
+    max-width: 1200px;
 }
 
 .box {
     height: 100px;
     width: 100px;
     text-align: center;
+    line-height: 100px;
+    margin: 10px;
+}
+
+.boxNx {
+    background-color: darkgrey;
+    border: 2px solid black;
+}
+
+.box3x {
+    background-color: crimson;
+    border: 2px solid black;
+}
+
+.box5x {
+    background-color: aquamarine;
+    border: 2px solid black;
 }
