@@ -1,0 +1,10 @@
+#list {
+    display: flex;
+    margin: auto;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
