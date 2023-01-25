@@ -6,7 +6,7 @@ const ul = document.querySelector("grid")
 
 console.log("loop-start")
 
-for (let i = 0; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
     // Stampa dei multipli di 3
 
@@ -20,7 +20,13 @@ for (let i = 0; i <= 100; i++) {
         grid.innerHTML += `<li class="box box5x">Buzz</li>`
     }
 
-    // Stampa dei rimanenti numeri
+    // Stampa dei multipli di 3 e 5
+
+    else if ((i % 3 == 0) && (i % 5 == 0)) {
+        grid.innerHTML += `<li class="box box3x5x">FizzBuzz</li>`
+    }
+
+    // Stampa dei numeri rimanenti
 
     else {
         grid.innerHTML += `<li class="box boxNx">element ${i}</li>`
